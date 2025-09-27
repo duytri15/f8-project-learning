@@ -4,8 +4,9 @@
 html {
     font-size: 62.5%;
 }
-html, body{
-scroll-behavior: smooth;
+html,
+body {
+    scroll-behavior: smooth;
 }
 body {
     font-size: 1.6rem;
@@ -100,7 +101,7 @@ a {
     font-size: 1.6rem;
     font-weight: 400;
 }
-.header .action-link:hover{
+.header .action-link:hover {
     opacity: 0.7;
 }
 .header .action .cta-btn {
@@ -552,12 +553,11 @@ a {
 /* Footer */
 .footer {
     margin-top: 100px;
-    padding: 30px 0;
+    padding: 30px 0 50px;
 }
 .footer .row {
     display: flex;
 }
-
 .footer .column:first-child,
 .footer .column:nth-child(3) {
     width: 22%;
@@ -592,7 +592,7 @@ a {
     gap: 0 9px;
 }
 .footer .copyright {
-    margin: 62px 0 50px;
+    margin-top: 62px;
     text-align: center;
     color: #b0b5b4;
     font-size: 1.8rem;
